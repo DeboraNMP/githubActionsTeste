@@ -1,0 +1,23 @@
+{
+  "name": "githubactionsteste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "test": "echo \"Tests running...\"",
+    "build": "echo \"Build running...\"",
+    "deploy": "echo \"Deploying new build to cloud server...\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "tsc": "^2.0.4"
+  }
+}
