@@ -1,6 +1,9 @@
 name: testeGithubActions 
 
 on:
+  schedule:
+    - cron: "1 * * * *" 
+
   push:
     branches: ["*"] 
 
